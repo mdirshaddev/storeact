@@ -18,8 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build-storybook",
+    "deploy": "gh-pages -d build-storybook",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "set STORYBOOK_THEME=dark && start-storybook -p 9009 -s public",
